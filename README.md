@@ -11,9 +11,9 @@ The first step of the wheel involves selling a cash secured put (CSP) on the und
 Eventually, you will be assigned and the shares will be put to you. This is when the next cycle of the wheel begins.
 
 ### Covered Calls
-Now that you own 100 shares (or more if you used the premiums to build a long position), you can sell a covered call (CC). A covered call is just a normal call option secured by shares. Selling this contract obligates you to sell your shares are whatever strike price you have sold to the option buyer at the behest of the buyer, just like with the CSP. Now, the objective is to sell these contracts and collect premiums until you are assigned. 
+Now that you own 100 shares (or more if you used the premiums to build a long position), you can sell a covered call (CC). A covered call is just a normal call option secured by shares. Selling this contract obligates you to sell your shares at whatever strike price you have sold to the option buyer at the behest of the buyer, just like with the CSP. Now, the objective is to sell these contracts and collect premiums until you are assigned. 
 
 When you are assigned, you go back to selling CSPs.
 
 ## Where does the tracker come in?
-This tracker allows you to create a profile of securities and enter the premiums received or payed for selling or buying options. You can then compute an adjusted cost basis to have a better grasp of what strikes you should sell options at. This is **NOT** connected to any live pricing data, but maybe that is a good feature to consider. A portfolio can be pickled to prevent the need to load the same portfolio repeatedly.
+This tracker allows you to create a portfolio of securities and enter the premiums received or payed for selling or buying options. You can then compute an adjusted cost basis to have a better grasp of what strikes you should sell options at. This is **NOT** connected to any live pricing data, but maybe that is a good feature to consider. A portfolio can be pickled to prevent the need to load the same portfolio repeatedly.
